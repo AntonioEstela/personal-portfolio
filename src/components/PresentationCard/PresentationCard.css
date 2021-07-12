@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__text--title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card__text--jobTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: right;
+}
+
+.card--image img {
+  width: 20rem;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        flex-direction: column-reverse;
+    }
+}

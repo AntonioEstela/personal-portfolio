@@ -1,0 +1,44 @@
+/* Mobile attributes */
+@media screen and (max-width: 800px) {
+  .NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .NavBar__list--item a {
+    font-size: 1rem;
+  }
+
+  .NavBar__list--item a.middle {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+/* Desktop attributes */
+@media screen and (min-width: 801px) {
+  .NavBar {
+    width: 30rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .NavBar__list--item a {
+    font-size: 18px;
+  }
+}
+
+.NavBar__list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar__list--item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
