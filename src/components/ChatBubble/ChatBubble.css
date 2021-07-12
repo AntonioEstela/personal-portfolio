@@ -1,0 +1,14 @@
+.ChatBubble {
+    background-image: url(./img/chat-bubble.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChatBubble p {
+    text-align: center;
+    margin-right: 20px;
+}
