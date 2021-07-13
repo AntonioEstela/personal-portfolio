@@ -1,0 +1,31 @@
+.SkillsCard {
+    background-color: #EFDAFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.skillCard {
+    padding-top: 20px;
+    background-color: #F1F1F1;
+    width: 300px;
+}
+
+.skillCard__name-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillCard__name-logo--icon {
+    background-image: url('./img/backend-icon.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}

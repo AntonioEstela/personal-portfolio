@@ -1,0 +1,24 @@
+.Bubble {
+    max-width: 90%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #E9CCFF;
+    margin-bottom: 30px;
+}
+
+.title {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 14px;
+        padding: 0;
+    }
+    .text {
+        font-size: 12px;
+    }
+}

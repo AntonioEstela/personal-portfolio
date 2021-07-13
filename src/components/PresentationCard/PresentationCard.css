@@ -24,4 +24,8 @@
     .card {
         flex-direction: column-reverse;
     }
+
+    .card--image img {
+      width: 12rem;
+    }
 }
