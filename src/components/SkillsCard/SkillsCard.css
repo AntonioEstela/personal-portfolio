@@ -5,14 +5,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
     border-radius: 15px;
 }
 
 .skillCard {
+    border-radius: 10px;
     padding-top: 20px;
     background-color: #F1F1F1;
-    width: 300px;
+    width: 30%;
 }
 
 .skillCard__name-logo {
@@ -22,10 +23,24 @@
 }
 
 .skillCard__name-logo--icon {
-    background-image: url('./img/backend-icon.svg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
     height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .SkillsCard {
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .skillCard {
+        width: 80%;
+    }
+    .skillCard.middle {
+        margin: 20px 0;
+    }
 }
