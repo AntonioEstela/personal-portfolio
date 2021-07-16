@@ -1,46 +1,83 @@
+.skillsCard__container {
+  background-color: #efdaff;
+  padding: 30px;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 9px 41px 5px rgba(0, 0, 0, 0.25);
+}
+
+.skillsCard__container h1 {
+  margin-top: 0;
+}
+
 .SkillsCard {
-    background-color: #EFDAFF;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .skillCard {
-    border-radius: 10px;
-    padding-top: 20px;
-    background-color: #F1F1F1;
-    width: 30%;
+  border-radius: 10px;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  width: 40%;
 }
 
 .skillCard__name-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skillCard__name-logo--icon {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.skillCard__skillset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.skillCard__skillset--title {
+    color:blueviolet;
+}
+
+.skillCard__sikillset--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 800px) {
-    .SkillsCard {
-        flex-direction: column;
-        width: 100%;
-        border-radius: 0px;
-    }
+  .skillsCard__container {
+    width: 100%;
+    border-radius: 0px;
+  }
 
-    .skillCard {
-        width: 80%;
-    }
-    .skillCard.middle {
-        margin: 20px 0;
-    }
+  .SkillsCard {
+    flex-direction: column;
+  }
+
+  .skillCard {
+    width: 80%;
+  }
+  .skillCard.middle {
+    margin: 20px 0;
+  }
 }

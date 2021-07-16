@@ -1,0 +1,26 @@
+.PercentageBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.PercentageBar__properties {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PercentageBar__border {
+    width: 100%;
+    height: 20px;
+    background-color: #EFDAFF;
+    border-radius: 10px;
+}
+
+.PercentageBar__content {
+    background-color: #950EFF;
+    border-radius: 10px;
+    height: 100%;
+}
