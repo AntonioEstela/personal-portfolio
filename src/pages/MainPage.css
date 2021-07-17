@@ -19,3 +19,14 @@
     align-items: center;
     margin: 60px 0;
 }
+
+.ProjectCarousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    margin-top: 50px;
+}

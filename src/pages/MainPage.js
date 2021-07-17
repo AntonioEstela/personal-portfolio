@@ -4,6 +4,7 @@ import PresentationCard from "../components/PresentationCard/PresentationCard";
 import Bubble from "../components/Bubble/Bubble.js";
 import SkillsCard from "../components/SkillsCard/SkillsCard";
 import Footer from "../components/Footer/Footer";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 import "./MainPage.css";
 
@@ -23,6 +24,12 @@ export default function MainPage(props) {
       </div>
       <div className="skillContainer">
         <SkillsCard />
+      </div>
+      <div className="ProjectCarousel">
+        <div className="ProjectCarousel--title">
+          <Bubble text="Some projects I've done" isTitle={true} />
+        </div>
+        <ProjectCard />
       </div>
       <div className="footerContainer">
         <Footer />
