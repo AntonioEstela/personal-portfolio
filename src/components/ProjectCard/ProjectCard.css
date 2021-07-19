@@ -8,13 +8,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .ProjectCard__img {
-    background-color: gray;
     width: 50%;
-    height: 300px;
     border-radius: 15px;
+}
+
+.ProjectCard__img img {
+    width: 100%;
 }
 
 .ProjectCard__content{
@@ -29,6 +32,9 @@
 }
 
 .TechIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     background-color: #D6C7E1;
     border-radius: 10px;
@@ -37,7 +43,7 @@
 }
 
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 800px) {
     .ProjectCard {
         padding: 50px 0;
         height: auto;

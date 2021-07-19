@@ -1,7 +1,7 @@
 import React from "react";
 
 import PercentageBar from "../PercentageBar/PercentageBar";
-import skillsData from "./data/skills";
+import skillsData from "../../data/skills";
 import "./SkillsCard.css";
 
 function SkillCard(props) {

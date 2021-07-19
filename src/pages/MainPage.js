@@ -5,6 +5,7 @@ import Bubble from "../components/Bubble/Bubble.js";
 import SkillsCard from "../components/SkillsCard/SkillsCard";
 import Footer from "../components/Footer/Footer";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+import techsData from "../data/techs";
 
 import "./MainPage.css";
 
@@ -29,7 +30,18 @@ export default function MainPage(props) {
         <div className="ProjectCarousel--title">
           <Bubble text="Some projects I've done" isTitle={true} />
         </div>
-        <ProjectCard />
+        <ProjectCard
+          title="AirBnB Clone"
+          description="A full-stack AirBnB website clone that I've made to learn how does a website actually works."
+          techs={techsData.airbnb}
+          route="airbnb-clone"
+        />
+        <ProjectCard
+          title="Junior Devs Roles"
+          description="Webapp for search junior jobs remote anywhere especially for Holberton Students."
+          techs={techsData.jdrra}
+          route="jdrra"
+        />
       </div>
       <div className="footerContainer">
         <Footer />
