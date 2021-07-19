@@ -35,12 +35,14 @@ export default function MainPage(props) {
           description="A full-stack AirBnB website clone that I've made to learn how does a website actually works."
           techs={techsData.airbnb}
           route="airbnb-clone"
+          link="https://github.com/AntonioEstela/AirBnB_clone_v4"
         />
         <ProjectCard
           title="Junior Devs Roles"
           description="Webapp for search junior jobs remote anywhere especially for Holberton Students."
           techs={techsData.jdrra}
           route="jdrra"
+          link="https://github.com/Vagrant-Destroyers/JDRRA-FRONT"
         />
       </div>
       <div className="footerContainer">

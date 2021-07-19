@@ -7,7 +7,7 @@ import "./SkillsCard.css";
 function SkillCard(props) {
   let path = `/img/${props.route}-icon.svg`;
 
-  const languajes = props.data.map((data) => {
+  const languages = props.data.map((data) => {
     return <PercentageBar name={data.name} percentage={data.percentage} key={data.name}/>;
   });
 
@@ -23,9 +23,9 @@ function SkillCard(props) {
         </div>
       </div>
       <div className="skillCard__skillset">
-        <h4 className="skillCard__skillset--title">Languajes I speak</h4>
+        <h4 className="skillCard__skillset--title">Languages I speak</h4>
         <div className="skillCard__sikillset--container">
-          {languajes}
+          {languages}
         </div>
       </div>
     </div>

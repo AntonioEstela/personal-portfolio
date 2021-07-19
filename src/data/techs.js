@@ -10,7 +10,7 @@ const techsData = {
     },
     { techName: "Css", url: "https://img.icons8.com/color/50/000000/css3.png" },
     {
-      techName: "flask",
+      techName: "Flask",
       url: "https://img.icons8.com/ios/50/000000/flask.png",
     },
   ],
@@ -25,7 +25,7 @@ const techsData = {
       url: "https://img.icons8.com/color/50/000000/html-5--v1.png",
     },
     {
-      techName: "Vuejs",
+      techName: "VueJs",
       url: "https://img.icons8.com/color/48/000000/vue-js.png",
     },
   ],
