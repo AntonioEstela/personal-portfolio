@@ -1,33 +1,61 @@
 .containerBubbles {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Bubbles {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
 }
 
 .ProjectCarousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.bubbleTitle {
+  display: flex;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactSection__content {
+  width: 70%;
+}
 
 .footerContainer {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .contactSection__content {
+        width: 100%;
+    }
+
+    .footerContainer {
+        margin-top: 0;
+    }
 }

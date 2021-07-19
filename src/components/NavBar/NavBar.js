@@ -7,13 +7,13 @@ export default function NavBar(props) {
     <div className="NavBar">
       <ul className="NavBar__list">
         <li className="NavBar__list--item">
-          <a href="/">About Me</a>
+          <a href="#main">About Me</a>
         </li>
         <li className="NavBar__list--item">
-          <a href="/" className="middle">My Work</a>
+          <a href="#myWork" className="middle">My Work</a>
         </li>
         <li className="NavBar__list--item">
-          <a href="/">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

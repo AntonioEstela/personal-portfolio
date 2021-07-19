@@ -29,7 +29,7 @@ export default function ProjectCard(props) {
 
       <div className="ProjectCard__content">
         <div className="ProjectCard__content--text">
-          <a href={link} title="Source Code">
+          <a href={link} title="Source Code" target="_blank" rel="noreferrer noopener" >
             <p>{title}</p>
           </a>
           <p>{description}</p>

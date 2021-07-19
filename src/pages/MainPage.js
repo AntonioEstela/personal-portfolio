@@ -6,15 +6,16 @@ import SkillsCard from "../components/SkillsCard/SkillsCard";
 import Footer from "../components/Footer/Footer";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import techsData from "../data/techs";
+import ConnectCards from "../components/ConnectCard/ConnectCard";
 
 import "./MainPage.css";
 
 export default function MainPage(props) {
   return (
-    <div className="mainPage">
+    <div className="mainPage" id="main">
       <NavBar />
       <PresentationCard />
-      <div className="containerBubbles">
+      <section className="containerBubbles">
         <div className="Bubbles">
           <Bubble text="Hi, I'm Antonio. Nice to meet you! 👋🏼" isTitle={true} />
           <Bubble
@@ -22,13 +23,13 @@ export default function MainPage(props) {
             isTitle={false}
           />
         </div>
-      </div>
+      </section>
       <div className="skillContainer">
         <SkillsCard />
       </div>
-      <div className="ProjectCarousel">
-        <div className="ProjectCarousel--title">
-          <Bubble text="Some projects I've done" isTitle={true} />
+      <section className="ProjectCarousel" id="myWork">
+        <div className="ProjectCarousel--title bubbleTitle">
+          <Bubble text="Some of my work that I’ve done!" isTitle={true} />
         </div>
         <ProjectCard
           title="AirBnB Clone"
@@ -44,7 +45,15 @@ export default function MainPage(props) {
           route="jdrra"
           link="https://github.com/Vagrant-Destroyers/JDRRA-FRONT"
         />
-      </div>
+      </section>
+      <section className="contactSection" id="contact">
+        <div className="contactSection--title bubbleTitle">
+          <Bubble text="Let's Connect!" isTitle={true} />
+        </div>
+        <div className="contactSection__content">
+          <ConnectCards />
+        </div>
+      </section>
       <div className="footerContainer">
         <Footer />
       </div>
