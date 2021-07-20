@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17016b98.chunk.css",
+    "main.js": "/static/js/main.a8d75b7b.chunk.js",
+    "main.js.map": "/static/js/main.a8d75b7b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b10bfdb4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b10bfdb4.js.map",
+    "static/js/2.ebcc4131.chunk.js": "/static/js/2.ebcc4131.chunk.js",
+    "static/js/2.ebcc4131.chunk.js.map": "/static/js/2.ebcc4131.chunk.js.map",
+    "static/js/3.2594d033.chunk.js": "/static/js/3.2594d033.chunk.js",
+    "static/js/3.2594d033.chunk.js.map": "/static/js/3.2594d033.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.17016b98.chunk.css.map": "/static/css/main.17016b98.chunk.css.map",
+    "static/js/2.ebcc4131.chunk.js.LICENSE.txt": "/static/js/2.ebcc4131.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Background.d978241f.svg",
+    "static/media/purple-antonio.7d1de688.png": "/static/media/purple-antonio.7d1de688.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b10bfdb4.js",
+    "static/js/2.ebcc4131.chunk.js",
+    "static/css/main.17016b98.chunk.css",
+    "static/js/main.a8d75b7b.chunk.js"
+  ]
+}
